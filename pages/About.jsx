@@ -20,6 +20,7 @@ const About = () => {
           className={styles.specialimage}
           src="../photo2.jpg"
           width="150px"
+          alt=""
         ></img>
         <br />
         <br />

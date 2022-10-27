@@ -15,6 +15,7 @@ const Projects = () => {
           width="300px"
           length="200px"
           image-rendering="pixelated"
+          alt=""
         ></img>
         <p>
           A sleepy student awakes from his dream to find himself lost in a
@@ -36,12 +37,14 @@ const Projects = () => {
           width="64px"
           length="48px"
           image-rendering="pixelated"
+          alt=""
         ></img>
         <img
           src="../player2.gif"
           width="64px"
           length="48px"
           image-rendering="pixelated"
+          alt=""
         ></img>
         <img
           src="../player1.gif"
@@ -56,6 +59,7 @@ const Projects = () => {
           width="128px"
           length="48px"
           image-rendering="pixelated"
+          alt=""
         ></img>
         <img
           src="../creepyenemy.gif"
@@ -68,12 +72,14 @@ const Projects = () => {
           width="128px"
           length="48px"
           image-rendering="pixelated"
+          alt=""
         ></img>
         <img
           src="../fifth.gif"
           width="128px"
           length="48px"
           image-rendering="pixelated"
+          alt=""
         ></img>
         <br></br>
         <p>Traverse different landscapes!</p>
@@ -82,6 +88,7 @@ const Projects = () => {
           src="../forest.png"
           height="200px"
           image-rendering="pixelated"
+          alt=""
         ></img>
         <img
           className={styles.specialimage}
@@ -100,12 +107,14 @@ const Projects = () => {
           src="../waterfall.png"
           height="200px"
           image-rendering="pixelated"
+          alt=""
         ></img>
         <img
           className={styles.specialimage}
           src="../final.png"
           height="200px"
           image-rendering="pixelated"
+          alt=""
         ></img>
         <br></br>
         <p>Finish the entire game in 10 minutes! (your time is precious)</p>
@@ -115,6 +124,7 @@ const Projects = () => {
           width="300px"
           length="48px"
           image-rendering="pixelated"
+          alt=""
         ></img>
         <br></br>
         <p>Trailer</p>
@@ -124,6 +134,7 @@ const Projects = () => {
           type="video/mp4"
           video
           width="100%"
+          alt=""
           controls
         ></video>
         <br></br>
@@ -142,6 +153,7 @@ const Projects = () => {
           width="330px"
           length="200px"
           image-rendering="smooth"
+          alt=""
         ></img>
         <p>
           OnlySharks is a shark-themed microblogging service built in{" "}
@@ -160,6 +172,7 @@ const Projects = () => {
           width="100%"
           length="48px"
           size="fluid"
+          alt=""
         ></img>
         <br></br>
         <p>The main user interface:</p>
@@ -169,6 +182,7 @@ const Projects = () => {
           width="100%"
           length="48px"
           size="fluid"
+          alt=""
         ></img>
         <br></br>
         <br></br>
@@ -217,6 +231,7 @@ const Projects = () => {
           src="../bagoprototype.png"
           width="300px"
           image-rendering="pixelated"
+          alt=""
         ></img>
       </div>
       <div className={styles.projectbreak}></div>
