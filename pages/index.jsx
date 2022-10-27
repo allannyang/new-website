@@ -28,7 +28,7 @@ const home = () => {
         />
       </h2>
       <Button path="About">About Me</Button>
-      <div classname={styles.home}>
+      <div>
         <SocialButton path="https://www.linkedin.com/in/allannyang/">
           <img
             src="../LinkedInIcon.png"
