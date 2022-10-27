@@ -1,0 +1,23 @@
+.topbar {
+    background-color: #141414;
+    height: 60px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, sans-serif;
+}
+.topbar a:hover {
+    font-size: 20.1px;
+}
+
+.topbar a {
+    text-decoration: none;
+    font-family: monospace;
+    color:white;
+    padding:0px 10px;
+    font-size: 20px;
+}
+
+.nameLink {
+    flex-grow: 1;
+}
