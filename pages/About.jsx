@@ -13,7 +13,7 @@ const About = () => {
       <br />
       <br />
       <h1>
-        I'm <em>Allan Yang</em>.
+        I&apos;m <em>Allan Yang</em>.
       </h1>
       <p>
         <img
@@ -24,22 +24,22 @@ const About = () => {
         ></img>
         <br />
         <br />
-        Nice to meet you! I'm a second-year student studying Computer Science at
+        Nice to meet you! I&apos;m a second-year student studying Computer Science at
         the University of Waterloo and Business Administration at Wilfrid
-        Laurier University. Originally, I'd planned to go to art school, but I
+        Laurier University. Originally, I&apos;d planned to go to art school, but I
         ended up here somehow...
         <br />
         <br />
         <br />
-        The langauges I'm most familiar with are Java and C, but I've also
+        The langauges I&apos;m most familiar with are Java and C, but I&apos;ve also
         worked with Python, Racket, HTML, CSS, and JavaScript (Other langauges
-        include English, Mandarin Chinese and French). In terms of tools, I've
+        include English, Mandarin Chinese and French). In terms of tools, I&apos;ve
         worked with a couple! React, Node.js, Google Workspace/MS Office,
         MediBang, Asesprite, etc.
         <br />
         <br />
-        <br />I hope to briefly summarize what I'm about and show you some of
-        the projects I've been working on via this website!
+        <br />I hope to briefly summarize what I&apos;m about and show you some of
+        the projects I&apos;ve been working on via this website!
       </p>
       <br />
       <p className={styles.specialabout}>

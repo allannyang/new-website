@@ -158,14 +158,14 @@ const Projects = () => {
         <p>
           OnlySharks is a shark-themed microblogging service built in{" "}
           <strong>Rust</strong> by a team of 3 people: <em>Evie Viau</em>,{" "}
-          <em>Amin Khatatbeh</em>, and <em>myself</em>. It's like a mix of{" "}
-          <strong>Twitter</strong> and <strong>emoj.li</strong>. We've
+          <em>Amin Khatatbeh</em>, and <em>myself</em>. It&apos;s like a mix of{" "}
+          <strong>Twitter</strong> and <strong>emoj.li</strong>. We&apos;ve
           incorporated many major features, including user registration/login,
           various security features, profile customization, search and
           post/image sharing.🦈💙
         </p>
         <br></br>
-        <p>OnlySharks' login page:</p>
+        <p>OnlySharks&apos; login page:</p>
         <img
           className={styles.specialimage}
           src="../onlysharks1.png"
@@ -207,7 +207,7 @@ const Projects = () => {
         </p>
         <p>
           <em2>BaGo</em2> is a reusable bag you can store comfortably anywhere,
-          like your wallet's credit card compartment! It's a convenience-focused
+          like your wallet&apos;s credit card compartment! It&apos;s a convenience-focused
           approach to single-use plastic bags and reusable bags alike.{" "}
           <em2>BaGo</em2> comes with a credit-card shaped holder, and by pulling
           the strings on top of the holder, the bag retracts into it for easy
@@ -216,14 +216,14 @@ const Projects = () => {
         <p>
           <em2>BaGo</em2> was conceptualized, built and pitched by Vivek
           Bhardwaj, Rovin Parasnauth, Nikolas Kotsovolos, Juho Choi and myself
-          for Wilfrid Laurier University's New Venture project, partnered with
+          for Wilfrid Laurier University&apos;s New Venture project, partnered with
           BDO Canada. We broke down its targeted market segment, its business
           model, growth trajectory, retail/online relationships, key partners,
           logistics/finances, sales forecasts, and expenses in order to create
           our business plan.
         </p>
         <p>
-          Here's a photo of our first prototype. It's seen better days, but it
+          Here&apos;s a photo of our first prototype. It&apos;s seen better days, but it
           took us to the semi-finals!
         </p>
         <img

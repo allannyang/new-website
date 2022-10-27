@@ -9,7 +9,7 @@ const home = () => {
   return (
     <div className={styles.home}>
       <h1>
-        Hey, I'm <em>Allan</em>.
+        Hey, I&apos;m <em>Allan</em>.
       </h1>
       <h2>
         <Typewriter
