@@ -7,7 +7,8 @@
     font-family:Georgia, 'Times New Roman', Times, sans-serif;
 }
 .topbar a:hover {
-    font-size: 20.1px;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .topbar a {
