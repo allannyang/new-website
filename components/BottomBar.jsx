@@ -1,13 +1,12 @@
-import Link from 'next/Link';
-import styles from '../styles/bottombar.module.css';
+import Link from "next/link";
+import styles from "../styles/bottombar.module.css";
 
 const BottomBar = () => {
-    return (
+  return (
     <nav className={styles.bottombar}>
-        <a className={styles.nameLink}>© Allan Yang, 2022</a>
+      <a className={styles.nameLink}>© Allan Yang, 2022</a>
     </nav>
-    );
-  };
-  
-  export default BottomBar;
-  
+  );
+};
+
+export default BottomBar;
