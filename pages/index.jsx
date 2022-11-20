@@ -1,7 +1,7 @@
 import React from "react";
 import TopBar from "../components/TopBar";
 import Button from "../components/Button";
-import styles from "../styles/home.module.css";
+import styles from "../styles/homer.module.css";
 import Typewriter from "typewriter-effect";
 import SocialButton from "../components/SocialButton";
 
