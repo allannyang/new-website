@@ -1,18 +1,17 @@
-import Link from 'next/Link';
-import styles from '../styles/topbar.module.css';
+import Link from "next/Link";
+import styles from "../styles/topbar.module.css";
 
 const TopBar = () => {
-    return (
+  return (
     <nav className={styles.topbar}>
-        <Link href="/" passHref>
-            <a className={styles.nameLink}>Allan Yang</a>
-        </Link>
-        <Link href="/">Home</Link>
-        <Link href="/About">About</Link>
-        <Link href="/Projects">Projects</Link>
+      <Link href="/" passHref>
+        <a className={styles.nameLink}>Allan Yang</a>
+      </Link>
+      <Link href="/">Home</Link>
+      <Link href="/About">About</Link>
+      <Link href="/Projects">Projects</Link>
     </nav>
-    );
-  };
-  
-  export default TopBar;
-  
+  );
+};
+
+export default TopBar;

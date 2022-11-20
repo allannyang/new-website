@@ -51,6 +51,7 @@ const Projects = () => {
           width="64px"
           length="48px"
           image-rendering="pixelated"
+          alt=""
         ></img>
         <br></br>
         <p>Defeat enemies!</p>
@@ -207,24 +208,24 @@ const Projects = () => {
         </p>
         <p>
           <em2>BaGo</em2> is a reusable bag you can store comfortably anywhere,
-          like your wallet&apos;s credit card compartment! It&apos;s a convenience-focused
-          approach to single-use plastic bags and reusable bags alike.{" "}
-          <em2>BaGo</em2> comes with a credit-card shaped holder, and by pulling
-          the strings on top of the holder, the bag retracts into it for easy
-          storage.
+          like your wallet&apos;s credit card compartment! It&apos;s a
+          convenience-focused approach to single-use plastic bags and reusable
+          bags alike. <em2>BaGo</em2> comes with a credit-card shaped holder,
+          and by pulling the strings on top of the holder, the bag retracts into
+          it for easy storage.
         </p>
         <p>
           <em2>BaGo</em2> was conceptualized, built and pitched by Vivek
           Bhardwaj, Rovin Parasnauth, Nikolas Kotsovolos, Juho Choi and myself
-          for Wilfrid Laurier University&apos;s New Venture project, partnered with
-          BDO Canada. We broke down its targeted market segment, its business
-          model, growth trajectory, retail/online relationships, key partners,
-          logistics/finances, sales forecasts, and expenses in order to create
-          our business plan.
+          for Wilfrid Laurier University&apos;s New Venture project, partnered
+          with BDO Canada. We broke down its targeted market segment, its
+          business model, growth trajectory, retail/online relationships, key
+          partners, logistics/finances, sales forecasts, and expenses in order
+          to create our business plan.
         </p>
         <p>
-          Here&apos;s a photo of our first prototype. It&apos;s seen better days, but it
-          took us to the semi-finals!
+          Here&apos;s a photo of our first prototype. It&apos;s seen better
+          days, but it took us to the semi-finals!
         </p>
         <img
           className={styles.specialimage}
