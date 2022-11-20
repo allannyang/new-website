@@ -1,18 +1,14 @@
 {
-  "homepage": "http://allannyang.github.io/website",
   "name": "my-app",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "scripts": {
     "dev": "next dev",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
-    "start": "react-scripts start",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "create-react-app": "^5.0.1",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-canvas-confetti": "^1.3.0",
