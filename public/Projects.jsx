@@ -51,7 +51,6 @@ const Projects = () => {
           width="64px"
           length="48px"
           image-rendering="pixelated"
-          alt=""
         ></img>
         <br></br>
         <p>Defeat enemies!</p>
