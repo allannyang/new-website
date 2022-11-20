@@ -66,6 +66,7 @@
 .project {
     position: relative;
     image-rendering: pixelated;
+    min-height: calc(100vh - 60px);
 }
 
 .projecttext {

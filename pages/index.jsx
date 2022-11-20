@@ -18,7 +18,7 @@ const home = () => {
               "I'm a CS student",
               "I'm a BBA student, too",
               "I like long walks on the beach",
-              "and getting hired for this job (please)",
+              "and getting hired for jobs :)",
             ],
             autoStart: true,
             loop: true,
