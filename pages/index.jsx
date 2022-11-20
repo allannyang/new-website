@@ -4,6 +4,7 @@ import Button from "../components/Button";
 import styles from "../styles/homer.module.css";
 import Typewriter from "typewriter-effect";
 import SocialButton from "../components/SocialButton";
+import BGBubbles from "../components/BGBubbles";
 
 const home = () => {
   return (
@@ -40,10 +41,11 @@ const home = () => {
         <SocialButton path="https://github.com/allannyang">
           <img src="../GitHubIcon.png" width="35px" length="35px" alt=""></img>
         </SocialButton>
-        <SocialButton path="">
+        <SocialButton path="mailto:mailallanyang@gmail.com (I know this isnt working atm)">
           <img src="../MailIcon.png" width="35px" length="35px" alt=""></img>
         </SocialButton>
       </div>
+      <BGBubbles></BGBubbles>
     </div>
   );
 };

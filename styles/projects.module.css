@@ -36,6 +36,26 @@
     }
   }
 
+  .projecttext em3 {
+    background: linear-gradient(90deg, #debe53, #ea8449, #ed5d35, #debe53);
+    background-size: 400%;
+    font-style: normal;
+    font-size:25px;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: animate 20s linear infinite;
+  }
+  @keyframes animate {
+    0%{
+      background-position: 0%;
+    }
+    100%{
+      background-position: 400%;
+    }
+  }
+
   
 
 .projectback {
@@ -69,6 +89,11 @@
     min-height: calc(100vh - 60px);
 }
 
+.projecttext p2 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .projecttext {
     font-family: monospace;
     text-align: center;
@@ -82,10 +107,10 @@
 
 .projectheader {
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     margin-top: -100px;
     width: 100%;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     position: absolute;
 }
 

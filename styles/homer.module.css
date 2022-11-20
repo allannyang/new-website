@@ -8,7 +8,7 @@
 }
 
 .home h1 {
-  font-size: 55px;
+  font-size: max(40px, 300%);
   margin: 0;
 }
 
@@ -41,4 +41,11 @@
   font-size: 20px;
   padding-top: 0px;
   padding-bottom: 25px;
+}
+
+.bubble {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
 }
