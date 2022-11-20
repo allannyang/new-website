@@ -25,9 +25,10 @@ const Projects = () => {
         <p>
           <em3>ALPHAWAVER</em3> is a top-down pixel RPG game I developed over
           six weeks. You control Alphs, our "hero" who awakens from his dream to
-          find himself lost in a peculiar world. You'll meet unusual allies as
-          you seek to understand where you really are. The game doesn't function
-          as you'd expect, though... (this is a feature, NOT bugs!!)
+          find himself lost in a peculiar world. You&apos;ll meet unusual allies
+          as you seek to understand where you really are. The game doesn&apos;t
+          function as you&apos;d expect, though... (this is a feature, NOT
+          bugs!!)
         </p>
         <p>On your journey, you can expect to:</p>
         <p>Recruit allies!</p>

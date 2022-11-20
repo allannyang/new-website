@@ -41,9 +41,9 @@ const About = () => {
           <br />
           <br />
           <br />
-          If you'd like to reach out, please feel free to send me an email at
-          mailallanyang@gmail.com, or send me a message on LinkedIn! I'll get
-          back to you right away.
+          If you&apos;d like to reach out, please feel free to send me an email
+          at mailallanyang@gmail.com, or send me a message on LinkedIn!
+          I&apos;ll get back to you right away.
           <br />
           <br />
           <br />I hope to briefly summarize what I&apos;m interested in and show
