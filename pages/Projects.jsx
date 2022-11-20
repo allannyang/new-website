@@ -14,8 +14,7 @@ const Projects = () => {
       <div className={styles.projecttext}>
         <img
           src="../ALPHAWAVERLOGO.png"
-          width="300px"
-          length="200px"
+          width="250px"
           image-rendering="pixelated"
           alt=""
         ></img>
@@ -150,7 +149,7 @@ const Projects = () => {
         <br></br>
         <img
           src="../onlysharkslogo.png"
-          width="330px"
+          width="250px"
           length="200px"
           image-rendering="smooth"
           alt=""
