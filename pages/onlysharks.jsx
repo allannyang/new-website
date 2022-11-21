@@ -1,4 +1,4 @@
-import styles from "../styles/projects.module.css";
+import styles from "../styles/onlysharks.module.css";
 import SocialButton from "../components/SocialButton";
 import Button from "../components/Button";
 import BGBubbles from "../components/BGBubbles";
@@ -6,7 +6,7 @@ import Card from "../components/Card";
 
 const project = () => {
   return (
-    <div classname={styles.project}>
+    <div className={styles.project}>
       <br></br>
       <br></br>
       <div className={styles.projecttext}>

@@ -6,7 +6,7 @@ import Card from "../components/Card";
 
 const Projects = () => {
   return (
-    <div classname={styles.project}>
+    <div className={styles.project}>
       <br></br>
       <br></br>
       <br></br>
@@ -20,17 +20,19 @@ const Projects = () => {
         <Card
           image="../ALPHAWAVERBanner.png"
           title="ALPHAWAVER"
-          description="a game, testing how the text fits currently."
+          description="Story-based top-down pixel RPG game."
           path="alphawaver"
         ></Card>
         <Card
           image="../OnlySharksBanner.png"
           title="OnlySharks"
-          description="a game, testing how the text fits currently."
+          description="Microblogging, but Only Sharks."
           path="onlysharks"
         ></Card>
       </div>
       <BGBubbles></BGBubbles>
+      <br></br>
+      <br></br>
     </div>
   );
 };
