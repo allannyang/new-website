@@ -1,8 +1,6 @@
 import BGBubbles from "../components/BGBubbles";
 import Button from "../components/Button";
 import styles from "../styles/about.module.css";
-import Dropdown from "../components/Dropdown";
-import Card from "../components/Card";
 
 const About = () => {
   return (
