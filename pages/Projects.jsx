@@ -4,7 +4,7 @@ import Button from "../components/Button";
 import BGBubbles from "../components/BGBubbles";
 import Card from "../components/Card";
 
-const Projects = () => {
+const projects = () => {
   return (
     <div classname={styles.project}>
       <br></br>
@@ -35,6 +35,6 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default projects;
 
 //c.strokeStyle = 'white' c.fillStyle = 'black' c.rect(100, 100, 100, 100) c.stroke() c.fill()

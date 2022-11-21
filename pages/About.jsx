@@ -2,7 +2,7 @@ import BGBubbles from "../components/BGBubbles";
 import Button from "../components/Button";
 import styles from "../styles/about.module.css";
 
-const About = () => {
+const about = () => {
   return (
     <div className={styles.about}>
       <br />
@@ -61,4 +61,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default about;
