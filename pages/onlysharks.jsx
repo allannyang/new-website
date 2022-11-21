@@ -16,7 +16,7 @@ const Project = () => {
         <br></br>
         <img
           src="../onlysharkslogo.png"
-          width="310rem"
+          width="300px"
           image-rendering="smooth"
           alt=""
         ></img>
