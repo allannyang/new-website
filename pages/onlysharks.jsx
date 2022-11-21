@@ -39,7 +39,7 @@ const Project = () => {
         <img
           className={styles.specialimage}
           src="../onlysharks1.png"
-          width="60%"
+          width="80%"
           length="48px"
           size="fluid"
           alt=""
@@ -49,7 +49,7 @@ const Project = () => {
         <img
           className={styles.specialimage}
           src="../onlysharks2.png"
-          width="60%"
+          width="80%"
           length="48px"
           size="fluid"
           alt=""

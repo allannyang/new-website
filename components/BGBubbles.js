@@ -36,7 +36,7 @@ const BGBubbles = (props) => {
         links: {
           enable: true, // enabling this will make particles linked together
           distance: 200, // maximum distance for linking the particles
-          color: "#3d3d3d",
+          color: "#434343",
         },
         move: {
           enable: true,

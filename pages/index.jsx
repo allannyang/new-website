@@ -7,6 +7,7 @@ import SocialButton from "../components/SocialButton";
 import BGBubbles from "../components/BGBubbles";
 
 const home = () => {
+  <title>Allan Yang</title>;
   return (
     <div className={styles.home}>
       <h1>

@@ -134,7 +134,7 @@ const Projects = () => {
           src="ALPHAWAVER Trailer.mp4"
           type="video/mp4"
           video
-          width="50%"
+          width="80%"
           alt=""
           controls
         ></video>
