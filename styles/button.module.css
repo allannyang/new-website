@@ -8,6 +8,7 @@
     height: 50px;
     text-decoration: none;
     cursor: pointer;
+    transition: background 200ms ease-in, color 250ms ease-in;
 }
 .dynamicButton:hover {
     background-color: rgba(255, 255, 255, 0.2);

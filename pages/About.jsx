@@ -1,13 +1,14 @@
 import BGBubbles from "../components/BGBubbles";
 import Button from "../components/Button";
 import styles from "../styles/about.module.css";
+import Dropdown from "../components/Dropdown";
+import Card from "../components/Card";
 
 const About = () => {
   return (
     <div className={styles.about}>
       <br />
       <div className={styles.specialabout}>
-        <br></br>
         <br></br>
         <br></br>
         <br></br>
@@ -52,7 +53,7 @@ const About = () => {
         <p className={styles.specialabout}>
           <em>TL;DR: Press the button below ↓</em>
           <br></br>
-          <Button path="Projects">Check my projects out here!</Button>
+          <Button path="projects">Check my projects out here!</Button>
           <br></br>
         </p>
         <br />

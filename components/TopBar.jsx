@@ -8,8 +8,8 @@ const TopBar = () => {
         <a className={styles.nameLink}>Allan Yang</a>
       </Link>
       <Link href="/">Home</Link>
-      <Link href="/About">About</Link>
-      <Link href="/Projects">Projects</Link>
+      <Link href="/about">About</Link>
+      <Link href="/projects">Projects</Link>
     </nav>
   );
 };
