@@ -28,7 +28,7 @@ const home = () => {
           }}
         />
       </h2>
-      <Button path="about">About Me</Button>
+      <Button path="About">About Me</Button>
       <div>
         <SocialButton path="https://www.linkedin.com/in/allannyang/">
           <img

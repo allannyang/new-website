@@ -2,7 +2,7 @@ import BGBubbles from "../components/BGBubbles";
 import Button from "../components/Button";
 import styles from "../styles/about.module.css";
 
-const about = () => {
+const About = () => {
   return (
     <div className={styles.about}>
       <br />
@@ -51,7 +51,7 @@ const about = () => {
         <p className={styles.specialabout}>
           <em>TL;DR: Press the button below ↓</em>
           <br></br>
-          <Button path="projects">Check my projects out here!</Button>
+          <Button path="Projects">Check my projects out here!</Button>
           <br></br>
         </p>
         <br />
@@ -61,4 +61,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;
