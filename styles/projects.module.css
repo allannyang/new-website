@@ -1,19 +1,19 @@
-.projecttext em {
-    background: linear-gradient(90deg, #6dc5f4, #5a95ed, #5aa3ed, #4287f5, #6dc5f4);
-    background-size: 400%;
-    font-style: normal;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    animation: animate 20s linear infinite;
+.project em {
+  background: linear-gradient(90deg, #f5426c, #edde5a, #785aed, #4287f5, #d05aed, #f5426c);
+  background-size: 400%;
+  font-style: normal;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: animate 20s linear infinite;
+}
+@keyframes animate {
+  0%{
+    background-position: 0%;
   }
-  @keyframes animate {
-    0%{
-      background-position: 0%;
-    }
-    100%{
-      background-position: 400%;
-    }
+  100%{
+    background-position: 400%;
+  }
 }
 
 .cards {
@@ -99,6 +99,10 @@
     min-height: calc(100vh - 60px);
 }
 
+.project p {
+  position: relative;
+}
+
 .projecttext p2 {
   font-weight: bold;
   text-decoration: underline;
@@ -113,6 +117,20 @@
     padding: 1px 15%;
     width: 100%;
     image-rendering: pixelated;
+}
+
+.project p3 {
+  font-family: monospace;
+  text-align: center;
+  align-items: center;
+  font-size: 15px;
+  width: 100%;
+  image-rendering: pixelated;
+  text-align: center;
+  margin-top: -40px;
+  width: 100%;
+  /*text-decoration: underline;*/
+  position: absolute;
 }
 
 .projectheader {

@@ -1,20 +1,22 @@
 import styles from "../styles/onlysharks.module.css";
+import buttonstyles from "../styles/button.module.css";
 import SocialButton from "../components/SocialButton";
 import Button from "../components/Button";
-import BGBubbles from "../components/BGBubbles";
+import SmallerButton from "../components/SmallerButton";
+import BGBubbly from "../components/BGBubbly";
 import Card from "../components/Card";
 
-const project = () => {
+const Project = () => {
   return (
     <div className={styles.project}>
+      <div className={styles.projectback}></div>
       <br></br>
       <br></br>
       <div className={styles.projecttext}>
         <br></br>
         <img
           src="../onlysharkslogo.png"
-          width="250px"
-          length="200px"
+          width="310rem"
           image-rendering="smooth"
           alt=""
         ></img>
@@ -60,12 +62,17 @@ const project = () => {
         >
           Check it out on Devpost!
         </Button>
+        <br></br>
+        <br></br>
+        <SmallerButton className={styles.button} path="Projects">
+          Back
+        </SmallerButton>
       </div>
-      <BGBubbles></BGBubbles>
+      <BGBubbly></BGBubbly>
     </div>
   );
 };
 
-export default project;
+export default Project;
 
 //c.strokeStyle = 'white' c.fillStyle = 'black' c.rect(100, 100, 100, 100) c.stroke() c.fill()

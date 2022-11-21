@@ -16,6 +16,9 @@ const Projects = () => {
       <br></br>
       <br></br>
       <h1 className={styles.projectheader}>Projects</h1>
+      <p3>
+        <em>(More coming soon!)</em>
+      </p3>
       <div className={styles.cards}>
         <Card
           image="../ALPHAWAVERBanner.png"
@@ -31,6 +34,7 @@ const Projects = () => {
         ></Card>
       </div>
       <BGBubbles></BGBubbles>
+      <br></br>
       <br></br>
       <br></br>
     </div>

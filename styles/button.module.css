@@ -14,6 +14,22 @@
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+.smalldynamicButton {
+    background-color: transparent;
+    font-family:monospace;
+    font-size: 15px;
+    color:white;
+    border: 2px solid white;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 200ms ease-in, color 250ms ease-in;
+}
+.smalldynamicButton:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
 .socialButton {
     background-color: white;
     color: white;

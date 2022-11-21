@@ -1,5 +1,5 @@
 .projecttext em {
-    background: linear-gradient(90deg, #6dc5f4, #5a95ed, #5aa3ed, #4287f5, #6dc5f4);
+    background: linear-gradient(90deg, #90d6fb, #a4d9fe, #ddedfc, #88c9ff, #6dc5f4, #90d6fb);
     background-size: 400%;
     font-style: normal;
     -webkit-text-fill-color: transparent;
@@ -58,5 +58,20 @@
 }
 
 .specialimage {
-    border: 3px solid black;
+    border: 3px solid rgb(202, 215, 223);
+}
+
+.projectback {
+  position:fixed;
+  background: #4d7dc5 !important;
+  background-size: cover;
+  object-fit: cover;
+  padding: 0px;
+  height: 1000%;
+  min-height: 100%;
+  width: calc(100vw);
+  margin: 0;
+  display: block;
+  z-index: -100000;
+  margin-top: -300px;
 }

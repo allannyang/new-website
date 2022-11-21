@@ -1,12 +1,14 @@
-import styles from "../styles/projects.module.css";
+import styles from "../styles/alphawaver.module.css";
 import SocialButton from "../components/SocialButton";
 import Button from "../components/Button";
-import BGBubbles from "../components/BGBubbles";
+import SmallerButton from "../components/SmallerButton";
+import BGStars from "../components/BGStars";
 import Card from "../components/Card";
 
 const Projects = () => {
   return (
     <div classname={styles.project}>
+      <div className={styles.projectback}></div>
       <br></br>
       <br></br>
       <br></br>
@@ -27,7 +29,7 @@ const Projects = () => {
           his dream to find himself lost in a peculiar world. You&apos;ll meet
           unusual allies as you seek to understand where you really are. The
           game doesn&apos;t function as you&apos;d expect, though... (this is a
-          feature, NOT bugs!!)
+          feature, NOT a bunch of bugs!!)
         </p>
         <p>On your journey, you can expect to:</p>
         <p>Recruit allies!</p>
@@ -138,13 +140,18 @@ const Projects = () => {
         ></video>
         <br></br>
         <br></br>
-        <Button className={styles.button} path="https://github.com/allannyang">
+        <Button className={styles.button} path="">
           Play it now*! (*soon)
         </Button>
         <br></br>
         <br></br>
+        <SmallerButton className={styles.button} path="Projects">
+          Back
+        </SmallerButton>
+        <br></br>
+        <br></br>
       </div>
-      <BGBubbles></BGBubbles>
+      <BGStars></BGStars>
     </div>
   );
 };
