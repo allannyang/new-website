@@ -75,15 +75,15 @@ const ExpandCard = () => {
                 }}
                 classname={styles.expand}
               >
-                <LangCard description="Java ████████████"></LangCard>
+                <LangCard description="Java █████████"></LangCard>
                 <br />
-                <LangCard description="C █████████"></LangCard>
+                <LangCard description="C ███████"></LangCard>
                 <br />
-                <LangCard description="HTML/CSS/JS ████████"></LangCard>
+                <LangCard description="HTML/CSS/JS ██████"></LangCard>
                 <br />
-                <LangCard description="Python ██████"></LangCard>
+                <LangCard description="Python █████"></LangCard>
                 <br />
-                <LangCard description="SQL ████"></LangCard>
+                <LangCard description="SQL ███"></LangCard>
                 <br />
                 <LangCard description="Racket ████"></LangCard>
                 <br />
