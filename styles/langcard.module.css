@@ -7,12 +7,15 @@
     border-radius: 0.4rem;
     font-style: italic;
     padding-top: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
 }
 
 .description {
     text-align: justify;
     font-family: monospace;
-    font-size: 16px;
+    font-size: 15px;
     padding: 0rem 1rem;
 }
 .description::after{

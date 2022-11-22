@@ -79,7 +79,7 @@ const ExpandCard = () => {
                 <br />
                 <LangCard description="C ███████"></LangCard>
                 <br />
-                <LangCard description="HTML/CSS/JS ██████"></LangCard>
+                <LangCard description="HTML/CSS/JS ███████"></LangCard>
                 <br />
                 <LangCard description="Python █████"></LangCard>
                 <br />
