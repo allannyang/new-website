@@ -23,7 +23,7 @@ const Projects = () => {
         <Card
           image="../ALPHAWAVERBanner.png"
           title="ALPHAWAVER"
-          description="Story-based top-down pixel RPG game."
+          description="A short story-based RPG game!"
           path="alphawaver"
         ></Card>
         <Card

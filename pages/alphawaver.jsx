@@ -7,7 +7,7 @@ import Card from "../components/Card";
 
 const Projects = () => {
   return (
-    <div classname={styles.project}>
+    <div className={styles.project}>
       <div className={styles.projectback}></div>
       <br></br>
       <br></br>

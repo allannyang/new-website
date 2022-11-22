@@ -32,7 +32,7 @@ const Project = () => {
           and <em>myself</em>. It&apos;s like a mix of <strong>Twitter</strong>{" "}
           and <strong>emoj.li</strong>. We&apos;ve incorporated many major
           features, including user registration/login, various security
-          features, profile customization, search and post/image sharing.🦈💙
+          features, profile customization, search and post/image sharing.
         </p>
         <br></br>
         <p>OnlySharks&apos; login page:</p>
