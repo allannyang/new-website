@@ -42,7 +42,7 @@ const home = () => {
         <SocialButton path="https://github.com/allannyang">
           <img src="../GitHubIcon.png" width="35px" length="35px" alt=""></img>
         </SocialButton>
-        <SocialButton path="mailto:mailallanyang@gmail.com (I know this isnt working atm)">
+        <SocialButton path="mailto:mailallanyang@gmail.com">
           <img src="../MailIcon.png" width="35px" length="35px" alt=""></img>
         </SocialButton>
       </div>
