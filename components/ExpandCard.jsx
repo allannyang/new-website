@@ -27,7 +27,7 @@ const ExpandCard = () => {
           }}
         >
           <motion.h2 layout="position" className={styles.div}>
-            Language Proficiency
+            Language Proficiency ↓
           </motion.h2>
           <AnimatePresence>
             {isOpen && (
