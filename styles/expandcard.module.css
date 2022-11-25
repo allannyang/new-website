@@ -13,10 +13,6 @@
     transform: scale(1.01);
 }
 
-.body {
-    background: linear-gradient(to right, #2c5364, #203a43);
-}
-
 .app {
     display: flex;
     height: 100%;
@@ -28,7 +24,7 @@
 
 .card {
     background: #3d3d3d;
-    padding: 1rem 4rem;
+    padding: 1rem 3.5rem;
     width: auto;
     box-shadow: 0 2px 20px #151515;
     display: grid;
@@ -37,7 +33,7 @@
     justify-content: space-between;
 }
 
-.card p5 {
+.card p {
     display: inline-flex;
     grid-template-columns: 300px, 1fr;
     grid-template-rows: repeat(auto);
