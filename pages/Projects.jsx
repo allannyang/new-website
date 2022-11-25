@@ -47,7 +47,7 @@ const Projects = () => {
         <Card
           image="../PreOwnedPalBanner.png"
           title="PreOwnedPal"
-          tools="Python, MySQL"
+          tools="Python"
           description="Web scraper tracking pre-owned item listings. Alerts user via email when keywords match."
           buttontext="Work In Progress"
           path=""
