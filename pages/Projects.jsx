@@ -23,14 +23,34 @@ const Projects = () => {
         <Card
           image="../ALPHAWAVERBanner.png"
           title="ALPHAWAVER"
-          description="A short story-based RPG game!"
+          description="A story-based RPG game! Escape from an unusual world with your allies' help."
+          tools="Java"
+          buttontext="View Project"
           path="alphawaver"
         ></Card>
         <Card
-          image="../OnlySharksBanner.png"
+          image="../OnlySharksBanner.jpg"
           title="OnlySharks"
-          description="Microblogging, but Only Sharks."
+          description="Microblogging, but Only Sharks. What does that mean? Why not find out?"
+          tools="Rust, PostgreSQL"
+          buttontext="View Project"
           path="onlysharks"
+        ></Card>
+        <Card
+          image="../CharacterCreator9kBanner.png"
+          title="CharacterCreator9k"
+          tools="Java"
+          description="A (simulated) computer virus disguised as a friendly character creator."
+          buttontext="View Project"
+          path="https://devpost.com/software/terrible-hack"
+        ></Card>
+        <Card
+          image="../PreOwnedPalBanner.png"
+          title="PreOwnedPal"
+          tools="Python, MySQL"
+          description="Web scraper tracking pre-owned item listings. Alerts user via email when keywords match."
+          buttontext="Work In Progress"
+          path=""
         ></Card>
       </div>
       <BGBubbles></BGBubbles>

@@ -12,6 +12,7 @@
     padding: 0;
     border-radius: 0.4rem;
     font-style: italic;
+    min-height: 420px;
 }
 
 .card:hover {
@@ -21,8 +22,12 @@
 .image {
     padding: 0;
     height: 10rem;
-    width:100%;
+    width: 100%;
     object-fit:cover;
+}
+
+.text {
+    line-height: 10px;
 }
 
 .title {
@@ -31,14 +36,22 @@
     text-align: left;
     font-family: monospace;
     font-weight: bold;
-    line-height: 100%;
+    line-height: 0%;
+}
+
+.tools {
+    padding: 0 1rem;
+    text-align: left;
+    font-family: monospace;
+    
 }
 
 .description {
     padding: 0 1rem;
     text-align: left;
     font-family: monospace;
-    
+    font-size: 15px;
+    line-height: 20px;
 }
 
 .button {
