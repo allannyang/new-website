@@ -38,9 +38,10 @@ const About = () => {
         <p>
           The langauges I&apos;m most familiar with are Java and C, but
           I&apos;ve also worked with Python, SQL, Racket, HTML, CSS, and
-          JavaScript. In terms of tools, I&apos;ve worked with React, NextJs,
-          Node.js, Google Workspace/MS Office (of course), and I like to create
-          any graphics I need using MediBang, Asesprite, etc.
+          JavaScript. In terms of tools and frameworks, I&apos;ve worked with
+          React, NextJS, Node.js, Google Workspace/MS Office (of course), and I
+          like to create any graphics I need primarily using MediBang and
+          Asesprite.
           <br />
           <br />
         </p>
