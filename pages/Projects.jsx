@@ -49,8 +49,8 @@ const Projects = () => {
           title="PreOwnedPal"
           tools="Python + Selenium, BeautifulSoup"
           description="Web scraper tracking pre-owned item listings. Alerts user via email when keywords match."
-          buttontext="Release Soon!"
-          path=""
+          buttontext="View Project"
+          path="https://github.com/allannyang/PreOwnedPal"
         ></Card>
         <Card
           image="../FraserMafiaBanner.png"
