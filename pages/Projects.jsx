@@ -64,7 +64,7 @@ const Projects = () => {
           image="FlyportBanner.png"
           title="Flyport"
           tools="C, GB Studio"
-          description="Game in early development for the Nintendo Game Boy. Play as a flying knight!"
+          description="Bossrush game in development for the Nintendo Game Boy. Play as a flying knight!"
           buttontext="Work In Progress"
           path=""
         ></Card>
