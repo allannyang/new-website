@@ -47,8 +47,24 @@ const Projects = () => {
         <Card
           image="../PreOwnedPalBanner.png"
           title="PreOwnedPal"
-          tools="Python"
+          tools="Python + Selenium, BeautifulSoup"
           description="Web scraper tracking pre-owned item listings. Alerts user via email when keywords match."
+          buttontext="Release Soon!"
+          path=""
+        ></Card>
+        <Card
+          image="../FraserMafiaBanner.png"
+          title="Fraser Mafia"
+          tools="Java + JDA"
+          description="Discord bot that lets up to 4 players play mafia using the Java Discord API. "
+          buttontext="View Project"
+          path="https://devpost.com/software/fraserbot-mafia"
+        ></Card>
+        <Card
+          image="FlyportBanner.png"
+          title="Flyport"
+          tools="C, GB Studio"
+          description="Game in early development for the Nintendo Game Boy. Play as a flying knight!"
           buttontext="Work In Progress"
           path=""
         ></Card>
