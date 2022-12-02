@@ -1,8 +1,19 @@
 import BGBubbles from "../components/BGBubbles";
 import Button from "../components/Button";
 import ExpandCard from "../components/ExpandCard";
-import LangCard from "../components/LangCard";
+import ReferenceCard from "../components/ReferenceCard";
+import DescCard from "../components/DescCard";
 import styles from "../styles/about.module.css";
+
+var references = new Array();
+references[0] =
+  "Allan is one of the most passionate people I've ever worked with. He pours his heart and soul into his work and his projects really do a great job of showcasing that. - Ali Raza Khan";
+references[1] =
+  "Allan's always shown to be quite humorous and intelligent while also being able to provide proper insight with any trouble I may have. - Akshay Vakil";
+references[2] =
+  "I've known Allan for many years, and I can confidently say he's one of the most out-of-the-box people I've met. - Kevin Nguyen";
+
+var i = Math.floor(Math.random() * 3);
 
 const About = () => {
   return (
@@ -17,7 +28,6 @@ const About = () => {
         <h1>
           I&apos;m <em>Allan Yang</em>.
         </h1>
-
         <p>
           <img
             className={styles.specialimage}
@@ -34,22 +44,18 @@ const About = () => {
           and solve tricky problems.
           <br />
         </p>
-
         <p>
           The langauges I&apos;m most familiar with are Java and C, but
-          I&apos;ve also worked with Python, SQL, Racket, HTML, CSS, and
-          JavaScript. In terms of tools and frameworks, I&apos;ve worked with
-          React, NextJS, Node.js, Google Workspace/MS Office (of course), and I
-          like to create any graphics I need primarily using MediBang and
-          Asesprite.
+          I&apos;ve also worked on projects with Python, SQL, HTML, CSS,
+          JavaScript and Racket. In terms of tools/frameworks, I&apos;ve worked
+          with React, NextJS, Node.js, Selenium, and Google Workspace/MS Office
+          (of course). I like to create any graphics I need using a variety of
+          fun tools, but primarily using MediBang and Asesprite.
           <br />
           <br />
         </p>
-
         <ExpandCard></ExpandCard>
-        <br />
-        <br />
-
+        <br></br>
         <p>
           If you&apos;d like to reach out, please feel free to send me an email
           at{" "}
@@ -76,7 +82,6 @@ const About = () => {
           <br></br>
           <br></br>
         </p>
-
         <br />
       </div>
       <BGBubbles></BGBubbles>

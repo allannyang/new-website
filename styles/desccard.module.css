@@ -5,27 +5,22 @@
     display: inline-grid;
     flex-direction: row;
     border-radius: 0.4rem;
-    padding-top: 6px;
+    font-style: italic;
+    padding-top: 0px;
     padding-left: 10px;
     padding-right: 10px;
     width: 100%;
 }
 
 .description {
-    text-align: justify;
     font-family: monospace;
-    font-size: 16px;
-    padding: 0rem 1rem;
-}
-.description::after{
-    content: "";
-    display:inline-block;
-    width: 100%;
+    font-size: 15px;
+    padding: 1rem 1rem;
 }
 
 .wrapper {
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(5rem, 25rem));
+    grid-template-columns:repeat(auto-fit, minmax(10rem, 50rem));
     gap: 2rem;
     justify-content: left;
 }

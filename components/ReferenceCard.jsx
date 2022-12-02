@@ -1,9 +1,9 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import styles from "../styles/expandcard.module.css";
-import LangCard from "../components/LangCard";
+import DescCard from "../components/DescCard";
 
-const ExpandCard = () => {
+const ReferenceCard = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <motion.div className={styles.all}>
@@ -27,7 +27,7 @@ const ExpandCard = () => {
           }}
         >
           <motion.h2 layout="position" className={styles.div}>
-            Language Proficiency ↓
+            References ↓
           </motion.h2>
           <AnimatePresence>
             {isOpen && (
@@ -75,17 +75,11 @@ const ExpandCard = () => {
                 }}
                 classname={styles.expand}
               >
-                <LangCard description="Java ██████████"></LangCard>
+                <DescCard description="Allan is one of the most passionate people I've ever worked with. He pours his heart and soul into his work and his projects really do a great job of showcasing that. - Ali Raza Khan"></DescCard>
                 <br />
-                <LangCard description="C ██████████"></LangCard>
+                <DescCard description="Allan's always shown to be quite humorous and intelligent while also being able to provide proper insight with any trouble I may have. - Akshay Vakil"></DescCard>
                 <br />
-                <LangCard description="Python █████████"></LangCard>
-                <br />
-                <LangCard description="HTML/CSS/JS ████████"></LangCard>
-                <br />
-                <LangCard description="SQL ███████"></LangCard>
-                <br />
-                <LangCard description="Racket █████"></LangCard>
+                <DescCard description="I've known Allan for many years, and I can confidently say he's one of the most out-of-the-box people I've met. - Kevin Nguyen "></DescCard>
                 <br />
                 <br />
               </motion.div>
@@ -97,4 +91,4 @@ const ExpandCard = () => {
   );
 };
 
-export default ExpandCard;
+export default ReferenceCard;
