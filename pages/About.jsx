@@ -38,10 +38,10 @@ const About = () => {
           <br />
           <br />
           Nice to meet you - and thanks for checking out my website! I&apos;m a
-          second-year student studying Computer Science at the University of
-          Waterloo and Business Administration at Wilfrid Laurier University.
-          I&apos;m passionate about using digital tools to build fun projects
-          and solve tricky problems.
+          student studying Computer Science at the University of Waterloo and
+          Business Administration at Wilfrid Laurier University. I&apos;m
+          passionate about using digital tools to build fun projects and solve
+          tricky problems.
           <br />
         </p>
         <p>
